@@ -44,7 +44,7 @@ Pass these options to the daemon when you run it locally or with a user data scr
 + `-t`, `--bind-tcp` – Listen for calls to the X\-Ray service on a different TCP port\.
 
   ```
-  -bind-tcp "127.0.0.1:3000"
+  --bind-tcp "127.0.0.1:3000"
   ```
 
   Default – `2000`\.
